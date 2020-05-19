@@ -9,11 +9,17 @@ The proper way to use a Github repository is to fork it.  Then clone it from you
 Once that's done, install gTTS:
 
 pip install gTTS
+
 sudo apt-get install xsel
+
 mkdir -p ~/local/bin
+
 copy GoogSpeech.sh to /usr/local/bin and make it executable.
+
 cp GoogSpeech.sh ~/local/bin/
+
 Optionally if you know about symbolic links, you could link the file rather than copying it.
+
 chmod +x ~/local/bin/GoogSpeech.sh
 
 Create a keybinding
