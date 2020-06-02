@@ -1,6 +1,9 @@
 # GoogSpeech
 Use Google's TTS    
 
+I made a video to go with this:
+https://www.youtube.com/watch?v=msNz5Y8DYrg
+
 Installation:
 
 I'm running Ubuntu 18.04
@@ -14,7 +17,7 @@ pip install gTTS
 
 sudo apt-get install xsel
 
-mkdir -p ~/local/bin
+mkdir -p ~/local/bin (or use /usr/local/bin)
 
 copy GoogSpeech.sh to /usr/local/bin and make it executable.
 
@@ -27,6 +30,8 @@ chmod +x ~/local/bin/GoogSpeech.sh
 Create a keybinding
 
 Then I create a custom keyboard shortcut for the command bash ~/local/bin/speakit.sh (usually I map it to ctrl k) Here's how to do that in Ubuntu: https://help.ubuntu.com/stable/ubuntu-help/keyboard-shortcuts-set.html.en
+
+on POP!_OS 20.04 I had to reboot to get my new binding to work.
 
 Here's the PYPI web page for gTTS if you are interested in learning more:
 
