@@ -5,6 +5,10 @@ Installation:
 
 I'm running Ubuntu 18.04
 
+Install sox:
+
+sudo apt install sox
+
 The proper way to use a Github repository is to fork it.  Then clone it from your own copy.
 Once that's done, install gTTS:
 
