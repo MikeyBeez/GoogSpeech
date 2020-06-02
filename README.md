@@ -7,7 +7,8 @@ I'm running Ubuntu 18.04
 
 Install sox:
 
-sudo apt install sox
+sudo apt-get install sox
+sudo apt-get install libsox-fmt-mp3
 
 The proper way to use a Github repository is to fork it.  Then clone it from your own copy.
 Once that's done, install gTTS:
