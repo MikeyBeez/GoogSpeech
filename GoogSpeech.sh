@@ -1,2 +1,3 @@
 #!/bin/bash
-xsel | gtts-cli - | play -t mp3 - 
+xsel | gtts-cli --lang en-gb --nocheck - | mpg123 -
+
