@@ -33,6 +33,8 @@ Then I create a custom keyboard shortcut for the command bash ~/local/bin/speaki
 
 on POP!_OS 20.04 I had to reboot to get my new binding to work.
 
+BTW, gtts-cli --all will list all the possible language codes.
+  
 Here's the PYPI web page for gTTS if you are interested in learning more:
 
 https://pypi.org/project/gTTS/
