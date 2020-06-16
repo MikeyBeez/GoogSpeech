@@ -13,7 +13,8 @@ sudo apt install mpg123
 The proper way to use a Github repository is to fork it.  Then clone it from your own copy.
 Once that's done, install gTTS:
 
-pip install gTTS
+sudo pip install gTTS
+(Apparently gTTS is only available to the entire system if it is installed globally using sudo.)
 
 sudo apt-get install xsel
 
