@@ -13,20 +13,15 @@ sudo apt install mpg123
 The proper way to use a Github repository is to fork it.  Then clone it from your own copy.
 Once that's done, install gTTS:
 
-sudo pip install gTTS
-(Apparently gTTS is only available to the entire system if it is installed globally using sudo.)
+pip3 install gTTS
 
 sudo apt-get install xsel
 
-mkdir -p ~/local/bin (or use /usr/local/bin)
+mkdir -p ~/.local/bin
 
-copy GoogSpeech.sh to /usr/local/bin and make it executable.
+copy GoogSpeech.sh ~/.local/bin/ (make sure it's executable)
 
-cp GoogSpeech.sh ~/local/bin/
-
-Optionally if you know about symbolic links, you could link the file rather than copying it.
-
-chmod +x ~/local/bin/GoogSpeech.sh
+chmod +x ~/.local/bin/GoogSpeech.sh
 
 Create a keybinding
 
@@ -39,5 +34,4 @@ BTW, gtts-cli --all will list all the possible language codes.
 Here's the PYPI web page for gTTS if you are interested in learning more:
 
 https://pypi.org/project/gTTS/
-
 
